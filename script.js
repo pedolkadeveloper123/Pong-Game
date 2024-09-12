@@ -29,7 +29,7 @@ function draw() {
     }
 
     // Draw paddles
-    ctx.fillStyle = '#fff';
+    ctx.fillStyle = '#00ff00';
     ctx.fillRect(20, paddle1Y, paddleWidth, paddleHeight);
     ctx.fillRect(canvas.width - 20 - paddleWidth, paddle2Y, paddleWidth, paddleHeight);
     
